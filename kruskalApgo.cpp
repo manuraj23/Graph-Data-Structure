@@ -36,6 +36,7 @@ int main() {
     };
 
     sort(edges.begin(), edges.end(), [](Edge a, Edge b) {
+        
         return a.w < b.w;
     });
 

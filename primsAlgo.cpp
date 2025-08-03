@@ -25,6 +25,7 @@ int main() {
     priority_queue<P, vector<P>, greater<P>> pq;
     pq.push({0, 0});
     int mstWeight = 0;
+    
 
     while (!pq.empty()) {
         auto [w, u] = pq.top(); pq.pop();
